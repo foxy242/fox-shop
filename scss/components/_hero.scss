@@ -1,0 +1,96 @@
+.hero {
+    text-align: center;
+    display: flex;
+    background: #2f303a;
+
+    @media screen and (max-width: 425px) {
+        background-image: url(/img/Записати-24.PNG);
+    }
+
+    @media screen and (max-width: 1200px) {
+        background-image: url(/img/Записати-24.PNG);
+    }
+
+    @media screen and (max-width: 768px) {
+        background-image: url(/img/Записати-24.PNG);
+
+    }
+
+    background-repeat: no-repeat;
+}
+
+.hero__title {
+    padding-top: 200px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 425px) {
+    .hero__title {
+        padding-top: 100%;
+        margin-bottom: 100%;
+        font-weight: 900;
+        font-size: 44px;
+        color: #ffffff;
+        width: 360px;
+        height: 84px;
+    }
+}
+
+.hero__button {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 203px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .hero__button {
+        font-weight: 700;
+        font-size: 16px;
+        color: white;
+        background: #2196f3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        margin-bottom: 178px;
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 4px;
+        transform: matrix();
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .hero .containar {
+        width: 442px;
+        padding-left: 15px;
+        padding-right: 23px;
+        margin-left: auto;
+        margin-right: auto;
+        outline: solid red;
+    }
+}
+
+// @media screen and (max-width: 425px){
+
+// }
