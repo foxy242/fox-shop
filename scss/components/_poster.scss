@@ -1,5 +1,9 @@
-.poster__item{    
+.poster__list{    
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+.poster__item{
+    width: 400px;
+}

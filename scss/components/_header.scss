@@ -58,7 +58,7 @@
         font-family: "Raleway";
         font-weight: 700;
         font-size: 26px;
-        color: #255, 85, 0;
+        color: rgb(255, 102, 0);
     }
 }
 
@@ -68,9 +68,12 @@
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    color: #255, 85, 0;
+    color: rgb(255, 102, 0);
 }
 
+.header__fox > span {
+    text-decoration: line-through;
+}
 
 @media screen and (max-width: 980px) {
     .header__shop {
