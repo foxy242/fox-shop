@@ -109,7 +109,7 @@ body {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    color: #255, 85, 0;
+    color: rgb(255, 102, 0);
   }
 }
 .header__fox {
@@ -118,7 +118,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  color: #255, 85, 0;
+  color: rgb(255, 102, 0);
 }
 
 @media screen and (max-width: 980px) {
