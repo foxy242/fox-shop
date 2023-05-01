@@ -365,4 +365,20 @@ body {
 
 .poster__item {
   width: 400px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.poster__img {
+  height: 400px;
+}
+
+.poster__player {
+  width: 400px;
+  height: 1000px;
+  margin-bottom: 20px;
+}
+
+.poster__playerimg {
+  height: 850px;
 }/*# sourceMappingURL=main.css.map */
